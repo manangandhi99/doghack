@@ -1,0 +1,17 @@
+Application name: doghack-0e20a
+Application settings (stored as environmental variables on server):
+  COGSVCS_CLIENTURL: https://westus2.api.cognitive.microsoft.com/
+  COGSVCS_KEY: ccabff7d1fbc4acba274e38e0f255ce3
+Deployment info:
+  Git url: https://doghack-0e20a.scm.azurewebsites.net/doghack-0e20a.git
+  User name: $doghack-0e20a
+  User password: hgg9YTosfleoXCJJpotubqQGPDvoADoGsdz6h9SQwbhcacBig6GS4GWRgwYW
+Deployment steps:
+  1- Create git repository: git init
+  2- Add all code: git add .
+  3- Commit code: git commit -m 'Initial commit'
+  4- Add remote to git: git remote add azure https://doghack-0e20a.scm.azurewebsites.net/doghack-0e20a.git
+  5- Deploy to Azure: git push -u azure master
+Website url: https://doghack-0e20a.azurewebsites.net
+
+// python-env: avoid allowing publishing website with the keys out to github
